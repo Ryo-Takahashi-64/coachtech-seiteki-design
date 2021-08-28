@@ -1,0 +1,196 @@
+body {
+  width: 1300px;
+  font-family: "Shippori Mincho", serif;
+  line-height: 1.5;
+}
+li {
+  list-style: none;
+}
+
+.logo-item {
+  font-family: "Amatic SC", cursive;
+}
+/* header */
+.header {
+  height: 70px;
+}
+.header-logo {
+  color: #55bbbb;
+  text-align: right;
+  font-size: 40px;
+  margin: 0 50px;
+  font-weight: bold;
+}
+/* main firstview */
+.firstview {
+  position: relative;
+}
+.firstview img {
+  width: 100%;
+  display: block;
+}
+.firstview__desc {
+  position: absolute;
+  top: 5%;
+  margin-left: 50px;
+}
+.firstview__desc__title {
+  font-size: 40px;
+}
+.firstview__desc__title {
+  font-size: 40px;
+}
+.firstview__desc__title strong {
+  font-size: 64px;
+  color: #55bbbb;
+}
+.firstview__desc__title strong:last-child {
+  color: #000;
+}
+.firstview__desc__price {
+  display: flex;
+  margin: 30px 0;
+}
+.firstview__desc__price--logo {
+  background: #ff4384;
+  display: inline;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 30px;
+  padding: 30px 10px;
+}
+.firstview__desc__price--msg {
+  padding: 10px 20px;
+  align-items: center;
+}
+.firstview__desc__price--msg-top {
+  color: #55bbbb;
+}
+.firstview__desc__price--msg-bottom {
+  color: #ff4384;
+  line-height: 1;
+  font-size: 30px;
+}
+.firstview__desc__price--msg-bottom strong {
+  font-size: 50px;
+}
+.firstview__desc__btn {
+  background: #ff4384;
+  color: #fff;
+  font-size: 30px;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 0 10px #ff4384;
+  font-family: "Shippori Mincho", serif;
+}
+/* main セクション共通 */
+.main__section-title {
+  color: #fff;
+  background: #55bbbb;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+.main__section-title p {
+  font-size: 20px;
+}
+.main__section-title strong {
+  font-size: 30px;
+  font-weight: 400;
+}
+.marin__article__section {
+  margin: 60px auto 0;
+  width: 1000px;
+}
+
+/* main 悩み */
+.main__section-title.main__article::after {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  content: "";
+  margin-left: -10px;
+  border: 30px solid transparent;
+  border-top: 30px solid #55bbbb;
+}
+.main__trouble {
+  display: flex;
+  justify-content: center;
+}
+.main__trouble__item {
+  margin: 10px 20px 60px;
+}
+.main__trouble__item ul {
+  border: 1px solid #55bbbb;
+  border-radius: 30px;
+  padding: 30px;
+}
+.main__trouble__list {
+  color: #55bbbb;
+  border-bottom: 1px solid #55bbbb;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.main__trouble__list:last-child {
+  margin-bottom: 0;
+}
+.main__trouble__list::before {
+  content: "";
+  background: url(../img/check.svg);
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  top: 50%;
+  margin-right: 10px;
+}
+
+/* main 解決 */
+.main__section-title .logo-item {
+  font-weight: bold;
+}
+.main__solution__title strong:last-child {
+  color: #ff4384;
+}
+.main__solution {
+  margin-bottom: 60px;
+}
+.main__solution__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.main__solution__card {
+  width: 32%;
+  border: 1px solid #55bbbb;
+  position: relative;
+}
+.main__solution__point {
+  position: absolute;
+  display: inline;
+  top: -8%;
+  left: 5%;
+  background-color: #fff;
+  color: #55bbbb;
+  font-family: "Amatic SC", cursive;
+  font-size: 20px;
+  padding: 0 2px;
+}
+.main__solution__card__content {
+  padding: 30px 10px 10px;
+}
+.main__solution__card__content--main {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.main__solution__card__content--main span {
+  color: #ff4384;
+}
+/* footer */
+.footer {
+  text-align: center;
+}
+.footer small {
+  font-size: 12px;
+}
